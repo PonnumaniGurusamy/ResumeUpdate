@@ -6,7 +6,7 @@ exports.index = function (req, res) {
     Bio.get(function (err, bio) {
         if (err)
             res.json({
-                status: "error",
+                status: "error123",
                 message: err
             });
         res.json({
